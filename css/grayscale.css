@@ -66,6 +66,7 @@
   #mainNav.navbar-shrink {
     background-color: #fff;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
   }
@@ -74,6 +75,7 @@
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
+
   #mainNav.navbar-shrink .nav-link:hover {
     color: rgb(63, 110, 165);
   }
@@ -238,7 +240,8 @@
 }
 
 .signup-section {
-  padding: 4rem 0;
+  margin-top: -80px;
+  padding: 5rem 0;
   background: -webkit-gradient(
       linear,
       left top,
@@ -296,7 +299,7 @@
 }
 
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .contact-section .social a {
@@ -342,8 +345,4 @@ a:hover {
 
 .text-primary {
   color: rgb(63, 110, 165) !important;
-}
-
-footer {
-  padding: 5rem 0;
 }
